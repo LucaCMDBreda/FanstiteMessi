@@ -1,0 +1,157 @@
+        /* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns:3vw 42vw 52vw 3vw ;
+  grid-template-rows:5vh 45% 45% 5vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#buffalo{
+  grid-column:2 / 3 ;
+  grid-row:2 / 3 ;
+  background-image: url(Images/vlag.jpg);
+  
+}
+
+#bianca{
+  grid-column:3 / 4 ;
+  grid-row:2 / 3 ;
+  background-color: yellow;
+}
+ 
+#roderick{
+  grid-column:2 / 3 ;
+  grid-row:3 / 4 ;
+  background-color: blueviolet;
+}
+
+#kip{
+  grid-column:3 / 4 ;
+  grid-row:3 / 4 ;
+  background-image: url(Images/farcelona.jpg);
+  background-position: center;
+
+}
+
+#een{
+  grid-column:1 / 2 ;
+  grid-row:1 / 2 ;
+  background-color:wheat ;
+}
+
+#twee{
+  grid-column:2 / 3 ;
+  grid-row: 1 / 2;
+  background-color:wheat ;
+  z-index:100;
+}
+
+#drie{
+  grid-column:3 / 4 ;
+  grid-row: 1 / 2;
+  background-color:wheat ;
+  z-index:100;
+}
+
+#vier{
+  grid-column: 4 / 5 ;
+  grid-row:1 /2 ;
+  background-color: wheat;
+}
+
+#vijf{
+  grid-column: 2 / 3 ;
+  grid-row: 1 / 2 ;
+  background-color:wheat ;
+}
+
+#zes{
+  grid-column:3 / 4 ;
+  grid-row:1 /2 ;
+  background-color: wheat;
+}
+
+#zeven{
+  grid-column:4 / 5 ;
+  grid-row:1 / 2 ;
+  background-color:wheat ;
+}
+
+#acht{
+  grid-column: 2 / 3 ;
+  grid-row: 4 / 5 ;
+  background-color:wheat ;
+}
+
+#negen{
+  grid-column: 3 / 4 ;
+  grid-row:4 / 5 ;
+  background-color:wheat ;
+}
+
+#tien{
+  grid-column: 4 /5 ;
+  grid-row: 2 / 3 ;
+  background-color:wheat ;
+}
+
+#elf{
+  grid-column:4 / 5 ;
+  grid-row:3 / 4 ;
+  background-color:wheat ;
+}
+
+#twaalf{
+  grid-column:4 / 5 ;
+  grid-row:4 / 5 ;
+  background-color:wheat ;
+}
+
+h1 {
+  color:orange
+}
+
+h2 {
+  color:brown
+}
+
+h4{
+color:purple
+}
+h6{
+  color:blue
+}
+
+  /* unvisited link */
+
+a:link {
+  color: hwb(202 43% 14%);
+}
+ 
+/* visited link */
+a:visited {
+  color: hsl(52, 91%, 82%);
+}
+ 
+/* mouse over link */
+a:hover {
+  color: hsl(29, 44%, 29%);
+}
+ 
+/* selected link */
+a:active {
+  color: hsl(310, 100%, 50%);
+}
